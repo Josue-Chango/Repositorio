@@ -3,7 +3,7 @@
 #include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
-char *ingresar(char *);
+//char *ingresar(char *);
 //char *msj[]
 char *ingresar(char *msj){
 	char dato[25],c;
