@@ -70,9 +70,9 @@ void Lista::Mostrar() {
     cout << endl;
 }
 
-void leerArchivo(string nombrea) {
+void leerArchivo(string nombreA) {
     ifstream archivo;
-    archivo.open(nombrea);
+    archivo.open(nombreA);
 
     if (archivo.is_open()) {
         stringstream contenido;
@@ -81,7 +81,7 @@ void leerArchivo(string nombrea) {
 
         cout << contenido.str() << endl;
     } else {
-        cout << "No se pudo abrir el archivo " << nombrea << "." << endl;
+        cout << "No se pudo abrir el archivo " << nombreA << "." << endl;
     }
 }
 
@@ -97,7 +97,8 @@ void Lista::GuardarEnArchivo(const string& ruta) {
                 << actual->dato.generarCorreo() << ", "
                 << actual->dato.generarpasword() << ", "
                 << actual->dato.generarID() << ", "
-                << actual ->dato.generarencriptado(actual->dato.generarpasword()) << endl;
+                << actual ->dato.generarencriptado(actual->dato.generarpasword()) << ", "
+                << actual->dato.generarDesencriptado(actual->dato.generarencriptado(actual->dato.generarpasword())) << endl;
             actual = actual->siguiente;
         }
         archivo.close();

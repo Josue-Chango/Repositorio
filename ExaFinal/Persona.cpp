@@ -83,6 +83,22 @@ string  Persona::generarencriptado(string texto){
     return cifrado;
 }
 
+string  Persona::generarDesencriptado(string texto){
+    
+    string cifrado = "";
+    
+    for (char c : texto) {
+        if (isalpha(c)) {
+            char base = isupper(c) ? 'A' : 'a';
+            cifrado += static_cast<char>(base + (c - base - a) % 26);
+        } else {
+            cifrado += c;
+        }
+    }
+    
+    return cifrado;
+}
+
 /*string descifrarCesar(string texto) {
     return cifrarCesar(texto, 26 - (a % 26));
 }

@@ -26,6 +26,7 @@ public:
     string getCedula();
     string generarCorreo();
     string generarpasword();
+    string generarDesencriptado(string);
     string generarencriptado(string);
     bool validarCedula();
     string generarID();
