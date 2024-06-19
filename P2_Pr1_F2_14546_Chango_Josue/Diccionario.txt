@@ -1,0 +1,7 @@
+josue
+abc
+acb
+bca
+bac
+cba
+cab
