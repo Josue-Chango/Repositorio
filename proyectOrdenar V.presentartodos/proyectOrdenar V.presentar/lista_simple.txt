@@ -1,0 +1,14 @@
+Nombre: angelo , Apellido: jacome, Cedula: 0401752266
+Correo: ajacome@espe.edu.ec, Contrasenia inicial: eamocaj, Contrasenia: gcoqecl
+Nombre: fidel ,, Apellido: viscaino,, Cedula: 1705307906
+Correo: fviscaino@espe.edu.ec, Contrasenia inicial: ofniacsiv1,, Contrasenia: qhpkceukx
+Nombre: mirian ,, Apellido: marisol,, Cedula: 1712424181
+Correo: mmarisol@espe.edu.ec, Contrasenia inicial: lmosiram,, Contrasenia: noquktco
+Nombre: wilson orlando, Apellido: tipan, Cedula: 1714079553
+Correo: wotipan@espe.edu.ec, Contrasenia inicial: nwoapit2, Contrasenia: pyqcrkv
+Nombre: jordy , Apellido: yepez, Cedula: 1753783768
+Correo: jyepez@espe.edu.ec, Contrasenia inicial: zjepey1, Contrasenia: blgrga
+Nombre: taylor , Apellido: armas, Cedula: 1753813383
+Correo: tarmas@espe.edu.ec, Contrasenia inicial: stamra3, Contrasenia: uvcotc
+Nombre: zaira , Apellido: paco, Cedula: 1803005071
+Correo: zpaco@espe.edu.ec, Contrasenia inicial: ozcap4, Contrasenia: qbecr
